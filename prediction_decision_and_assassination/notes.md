@@ -101,7 +101,7 @@ about what is going to happen after their participants die.
 can be motivated to care about.
 
 But: Intrinsic motivation to be correct about the far future may be a
-remedy (prediction platforms vs. prediction markets).
+remedy (prediction __platforms__ vs. prediction __markets__).
 
 Applications
 ------------
