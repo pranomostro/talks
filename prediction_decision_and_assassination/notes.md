@@ -1,6 +1,9 @@
 Prediction, Decision and Assassination: Using Markets to Determine Truth
 ========================================================================
 
+Problem: This is getting very extensive, maybe two talks: 1 about
+prediction and forecasting in general, and one about prediction markets?
+
 Introduction
 ------------
 
@@ -14,12 +17,24 @@ markets?
 Not an economist, not a professional forecaster, doing it as a hobby
 for ~1 year.
 
-Bragging about personal predictions at the end.
+Bragging about personal accuracy at the end.
+
+### Assumptions
+
+* Beliefs about the world are probabilistic in nature.
+* It is possible and productive to assign probabilities to events.
+* It is possible to improve at forecasting.
+
+The last statement is testable.
+
+Nobody can predict the future, but we're getting better at it.
 
 Explanations
 ------------
 
 ### Prediction Markets
+
+#### Example
 
 Think betting, but more rigorous.
 
@@ -35,6 +50,16 @@ Think betting, but more rigorous.
 • Alice plants her chrysanthemes
 • In autumn 2020, her flowers are alive and well
 • She pays out 48 shares to the 4 "no" betters
+
+#### General Sequence of Events
+
+* Definition of resolution criteria
+* Open the market
+* Market stabilizes
+* Time of decision -> decision is made based on the market information
+* Market is closed
+* Time of resolution
+* Distribute money
 
 ### Decision Markets
 
@@ -72,6 +97,7 @@ __want__ to make accurate predictions. Possibly gamified with points.
 
 * Metaculus
 * Predictionbook
+* Foretold
 
 Problems
 --------
@@ -111,7 +137,21 @@ Applications
 Generally anything where one wants to have a more accurate picture of
 facts about the future.
 
+Examples:
+
+* Development of clean meat timelines
+* time until AGI
+* probability of risks from pandemics
+
+Much, much more.
+
 ### Settling Conflicts
 
 Sources
 -------
+
+Possible to read:
+
+* Superforecasting: /usr/local/doc/unread/predictions/superforecasting_tetlock_gardner_2015.epub
+* Shall We Vote on Values: /usr/local/doc/unread/predictions/shall_we_vote_on_values_hanson_2007.pdf
+* How Feasible is Long Rang Forecasting: https://www.openphilanthropy.org/blog/how-feasible-long-range-forecasting
