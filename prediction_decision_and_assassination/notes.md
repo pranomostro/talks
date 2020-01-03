@@ -78,7 +78,7 @@ TODO: Formula
 
 #### Brier Score
 
-TODO: Formula
+`$score=\frac{1}{N}*\sum_{i=1}^{N} (o_{i}-f_{i})^2$`
 
 #### Binary vs. Numeric Questions
 
