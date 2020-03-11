@@ -27,8 +27,13 @@ Central concepts
 
 Probabilistic beliefs
 
+#I used to think like:
+#Either X will happen
+#or it won't happen
+#or it could happen
+
 It is possible & useful to assign probabilities to some beliefs,
-as opposed to believing that X will/won't happen.
+as opposed to believing that X definitely will/won't happen.
 
 Calibration
 
@@ -67,3 +72,28 @@ Brier score
 • Good forecasters achieve scores from ~0.1 to ~0.2
 
 Useful techniques in forecasting
+
+Base Rates
+
+The base rate of an event is the incidence of this kind
+of event happening in the past.
+
+Example:
+There was radioactive rain on 20% of the days in the last year.
+Then 20% seems like a good first estimate for radioactive rain
+tomorrow.
+
+Wisdown of the Crowds/Dialectical Bootstrapping
+
+Wisdown of the crowds: Take the estimates of multiple people, use the mean.
+Dialectical bootstrapping: Make multiple different own estimates, use the mean.
+
+Extremising
+
+When the estimates of different people point in the same direction,
+become more confident.
+
+Example:
+7 people independently agree that the probability of radioactive rain
+tomorrow is 65%. They all have different information, so we can become
+more confident.
