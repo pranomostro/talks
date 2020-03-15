@@ -1,0 +1,5 @@
+.l("nplot")
+
+frame([0 10 1];[0 10 1])
+plot({x^2})
+draw()

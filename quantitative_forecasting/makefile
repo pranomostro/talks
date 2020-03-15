@@ -1,7 +1,17 @@
-forecasts.pdf: forecasts.tex
-	pdflatex forecasts.tex
+include config.mk
+
+.SUFFIXES: .kg .eps .png
+
+all: $(IMG)
+
+.eps.png:
+	convert -chop 0x180 $< $@
+	rm $<
+
+.kg.eps:
+	kg -l ./$< -e '.x(0)' >$@
 
 clean:
-	rm forecasts.aux forecasts.out forecasts.log
+	rm -f $(IMG)
 
-.PHONY: clean
+.PHONY: puttit clean

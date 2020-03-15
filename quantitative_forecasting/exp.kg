@@ -1,0 +1,6 @@
+.l("nplot")
+.l("math")
+
+frame([0 10 1];[0 10 1])
+plot({e^x})
+draw()

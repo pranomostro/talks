@@ -27,11 +27,6 @@ Central concepts
 
 Probabilistic beliefs
 
-#I used to think like:
-#Either X will happen
-#or it won't happen
-#or it could happen
-
 It is possible & useful to assign probabilities to some beliefs,
 as opposed to believing that X definitely will/won't happen.
 
@@ -47,13 +42,15 @@ Example:
 Underconfidence
 
 • Not believing your beliefs enough
-• If there is radioactive rain on 8 of these days, I'm underconfident
+• There is radioactive rain on 8  (instead of 6)
+• I'm underconfident
 • People usually aren't underconfident (in forecasting)
 
 Overconfidence
 
 • Believing your beliefs too much
-• If there is radioactive rain on 3 of the next 10 days, I'm overconfident
+• There is radioactive rain on 3 of the next 10 days (instead of 6)
+• I'm overconfident
 • Nearly everyone is overconfident
 
 You're calibrated if n% of your n% forecasts come true.
@@ -65,13 +62,18 @@ Predicting always 50% will be calibrated, but with low resolution.
 
 Brier score
 
-@brier.png
-
 • Score to determine the accuracy of a set of forecasts
 • 0 is perfect, 0.5 is completely random, 1 is also perfect (but reversed)
 • Good forecasters achieve scores from ~0.1 to ~0.2
 
+@brier.png
+
 Useful techniques in forecasting
+
+Intuition
+
+Yes, your intuition knows a lot about the world, and its forecasting
+abilities can be developed by practice.
 
 Base Rates
 
@@ -85,8 +87,10 @@ tomorrow.
 
 Wisdown of the Crowds/Dialectical Bootstrapping
 
-Wisdown of the crowds: Take the estimates of multiple people, use the mean.
-Dialectical bootstrapping: Make multiple different own estimates, use the mean.
+Wisdown of the crowds:
+    Take the estimates of multiple people, use the mean.
+Dialectical bootstrapping:
+    Make multiple different own estimates, use the mean.
 
 Extremising
 
@@ -96,4 +100,50 @@ become more confident.
 Example:
 7 people independently agree that the probability of radioactive rain
 tomorrow is 65%. They all have different information, so we can become
-more confident.
+more confident (e.g. 85%).
+
+Extrapolation
+
+If something has shown a growth pattern in the past, that
+growth pattern might continue
+With statistical software, fitting/regression & extrapolation
+can be done
+
+Different kinds of processes
+
+Linear
+Constant growth
+Example: Cumulative work done by a single person
+
+@linear.png
+
+Polynomial (often quadratic)
+Acceleration
+Example: Stopping distance of a car
+
+@quad.png
+
+Exponential
+Growth that feeds on itself
+Example: Moore's Law
+
+@exp.png
+
+Sigmoid
+Growth that feeds on itself, but is stopped by something
+Example: Spreading of a virus
+
+@sigmoid.png
+
+Forecasting Session
+
+What Is To Be Done?
+
+• Talk to me about this, I love this stuff
+• Join an online forecasting tournament/website if you enjoyed this:
+    – Metaculus (recommended)
+    – Good Judgement Project
+    – PredictionBook
+• Some Information:
+    – https://fs.blog/2015/12/ten-commandments-for-superforecasters/
+    – https://goodjudgment.com/
