@@ -3,6 +3,7 @@ include config.mk
 .SUFFIXES: .kg .eps .png
 
 all: $(IMG)
+	pdflatex forecasts.tex
 
 .eps.png:
 	convert -chop 0x180 $< $@
