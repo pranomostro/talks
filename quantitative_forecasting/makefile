@@ -4,6 +4,8 @@ include config.mk
 
 all: $(IMG)
 	pdflatex forecasts.tex
+	latex2rtf forecasts.tex
+	pandoc -s -o forecasts.md forecasts.tex
 
 .eps.png:
 	convert -chop 0x180 $< $@
