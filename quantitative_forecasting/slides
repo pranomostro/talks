@@ -63,7 +63,7 @@ Predicting always 50% will be calibrated, but with low resolution.
 Brier score
 
 • Score to determine the accuracy of a set of forecasts
-• 0 is perfect, 0.5 is completely random, 1 is also perfect (but reversed)
+• 0 is perfect, 0.25 is completely random, 1 is also perfect (but reversed)
 • Good forecasters achieve scores from ~0.1 to ~0.2
 
 @brier.png
@@ -147,8 +147,8 @@ What Is To Be Done?
 
 • Talk to me about this, I love this stuff
 • Join an online forecasting tournament/website if you enjoyed this:
-    – Metaculus (https://www.metaculus.com/questions/) (recommended)
-    – Good Judgement Project (https://www.gjopen.com/)
-    – PredictionBook (https://predictionbook.com/)
+    • Metaculus (https://www.metaculus.com/questions/) (recommended)
+    • Good Judgement Project (https://www.gjopen.com/)
+    • PredictionBook (https://predictionbook.com/)
 • Some Information:
-    – Ten commandments for Superforecasters (https://fs.blog/2015/12/ten-commandments-for-superforecasters/)
+    • Ten commandments for Superforecasters (https://fs.blog/2015/12/ten-commandments-for-superforecasters/)
