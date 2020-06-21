@@ -1,0 +1,62 @@
+Dear friends of effective altruism,
+
+this mail is a follow-up to the workshop at the meetup last month, where
+you were asked to make forecasts and submit them. Now the time has come
+to evaluate your forecasts!
+
+First the results! The teams had the following scores:
+
+Group 1:
+
+Brier score: 0.1435277
+Linear scoring rule for intervals: 0.0700983
+
+Group 2:
+
+Brier score: 0.1216451
+Linear scoring rule for intervals: 0.40082375
+
+Group 3:
+
+Brier score: 0.236965
+Linear scoring rule for intervals: 0.3398795
+
+Group 4:
+
+Brier score: 0.1951944
+Linear scoring rule for intervals: 0.1062106
+
+Lower scores are better.
+
+Note that the results are probably unreliable since the sample sizes are
+quite small, and at least one question was designed to give an unfair
+advantage to some people (as well as some submissions being incomplete).
+
+The results to the forecasts were gathered on 2020-06-15 20:00,
+and the forecasts were graded using both the brier score and the
+linear scoring rule for prediction intervals described in [Greenberg
+2018](https://arxiv.org/abs/1808.07501). I used the base-10 logarithm as
+constant (since some of you showed great interest in forecasting scoring
+rules, that paper might be worth a look – I found it interesting). For
+the interval scoring rule, I computed the mean of scores on all interval
+questions.
+
+If you want to revisit the talk, my slides are available
+[here](https://github.com/pranomostro/talks/blob/master/quantitative_forecasting/slides.pdf).
+If you want to continue forecasting, the two main alternatives
+are [Metaculus](https://www.metaculus.com/questions/) and
+[GJOpen](https://www.gjopen.com/), two very active internet communities.
+
+The standard recommended book is
+[Superforecasting](https://en.wikipedia.org/wiki/Superforecasting:_The_Art_and_Science_of_Prediction)
+by Philip Tetlock, although I haven't read it.
+
+If you would like to have the code and/or data I used to score the
+forecasts, just email me: adrian.regenfuss@posteo.de. Similar if you
+are not sure which group you were in.
+
+I hope you enjoyed this exercise, and took a little bit away from it.
+
+See you soon,
+
+Adrian
