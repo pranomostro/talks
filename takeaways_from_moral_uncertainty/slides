@@ -9,7 +9,7 @@ Takeaways from “Moral Uncertainty”
 
 1. Introduction
 
-Caveat: **Personal** takeaways
+Caveat: *Personal* takeaways
 
 Neither intended as nor successful at being
 a summary of the book
@@ -59,15 +59,25 @@ Also ¯\_(•_•)_/¯
 
 4. How
 
-Borda count for ordinal theories
-
-Variance voting for cardinal theories
-
 Maximize expected choiceworthiness
 
-Example
+Example: Susan and the Medicine
 
-CANDO
+Susan is doctor, one human & one chimpanzee patients
+
+Both suffer from same condition
+Medicine is scarce
+
+Options:
+• A: give all to human
+• B: split medicine
+• C: give all to chimpanzee
+
+@example.ff
+
+Borda count for incomparable ordinal theories
+
+Variance voting for incomparable cardinal theories
 
 5. So What
 
@@ -78,16 +88,13 @@ of making further moral progress
 
 Lesson 2: Let's not use control
 
-* Malthusian state
-* Global dictatorship
-* Extinction
-* Other species (including AI)
+• Malthusian state
+• Global dictatorship
+• Extinction
+• Other species (including AI)
 
 Lesson 2: This might be practically relevant
 (Like, in everyday life)
-
-I've had at least one situation where this
-was practically relevant
 
 Lesson 3: Might change efforts
 
